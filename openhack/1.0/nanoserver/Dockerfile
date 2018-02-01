@@ -1,5 +1,5 @@
 # escape=`
-FROM acanthamoeba/minecraft-server:nanoserver
+FROM minecraft-server:nanoserver-1709
 
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
 
