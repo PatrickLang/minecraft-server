@@ -23,7 +23,7 @@ USER ContainerAdministrator
 CMD ['reg.exe', 'ADD "HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\DOS Devices" /v "G:" /t REG_SZ /d "\??\C:\data"']
 USER ContainerUser
 
-WORKDIR G:\
+# WORKDIR G:\
 
 ENTRYPOINT [ "pwsh.exe", "-File", "C:\\minecraft\\start.ps1" ]
 
